@@ -7,21 +7,23 @@
 
 int main(void)
 {
-	int counter;
-	int countto = 50;
-	long a = 1;
-	long b = 2;
-
-	for (counter = 1; counter <= (countto / 2); counter++)
-	{
-		printf("%li %li ", a, b);
-		a += b;
-		b += a;
-	}
-	if (countto % 2 == 1)
-		printf("%li", a);
-
-	printf("\n");
-
-	return (0);
+unsigned long int sum3, sum5, sum;
+int i;
+sum3 = 0;
+sum5 = 0;
+sum = 0;
+for (i = 0; i < 1024; ++i)
+{
+if ((i % 3) == 0)
+{
+sum3 = sum3 + i;
+}
+else if ((i % 5) == 0)
+{
+sum5 = sum5 + i;
+}
+}
+sum = sum3 + sum5;
+printf("%lu\n", sum);
+return (0);
 }
