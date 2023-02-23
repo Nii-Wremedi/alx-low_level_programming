@@ -12,10 +12,7 @@
 
 int main(void)
 {
-		int a;
-		int b;
-		int c;
-		int largest;
+		int largest(int a, int b, int c);
 
 		a = 972;
 		b = -98;
