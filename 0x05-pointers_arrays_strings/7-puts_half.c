@@ -31,7 +31,7 @@ void puts_half(char *str)
 
 	/* find the index to start depending on even/odd amount of strlen */
 	if (length % 2 != 0)
-		pin = (lenght / 2) + 1;
+		pin = (length / 2) + 1;
 	else
 		pin = (length / 2);
 
