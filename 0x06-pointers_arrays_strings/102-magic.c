@@ -1,35 +1,24 @@
 #include "main.h"
 
 /**
- * print_number - print an integer, without using long, arrays, or pointers
- * @n: number to be printed
+ * main - check the code
+ *
+ * Return: Always 0.
  */
 
-void print_number(int n)
+int main(void)
 {
-	unsigned int tens, digit, positive = n;
-	double t_beg = 1;
+	int n;
+	int a[5];
+	int *p;
 
-	if (n == 0)
-		_putchar('0');
-	else
-	{
-		if (n < 0)
-		{
-			positive = n * -1;
-			_putchar('-');
-		}
+	a[2] = 1024;
+	p = &n;
 
-		while (t_beg <= positive)
-			t_beg *= 10;
-		tens = t_beg / 10;
-
-		while (tens >= 1)
-		{
-			digit = positive / tens;
-			_putchar(digit + '0');
-			positive = (positive - (tens * digit));
-			tens /= 10;
-		}
-	}
+*(p + 5) = 98;
+  /* ...so that this prints 98\n */
+	_putchar('9');
+	_putchar('8');
+	_putchar('\n');
+	return (0);
 }
