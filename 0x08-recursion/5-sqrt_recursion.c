@@ -18,8 +18,6 @@ int find_root(int n, int root)
 	return (find_root(n, root + 1));
 }
 
-}
-
 /**
  * _sqrt_recursion - find the natural square root of n
  * @n: n
