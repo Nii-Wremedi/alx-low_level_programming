@@ -19,6 +19,8 @@ int is_prime(int n, int divisor)
 
 /**
  * is_prime_number - to check if prime
+ * @n: number to check
+ * Return: 1 if prime, 0 if not
  */
 
 int is_prime_number(int n)
