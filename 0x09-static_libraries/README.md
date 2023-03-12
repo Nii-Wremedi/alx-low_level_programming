@@ -9,4 +9,3 @@ ar rcs command is used to create static libraries
 ar - stands for archive
 
 rcs - creates a new library or writes into exting libraries.
-
