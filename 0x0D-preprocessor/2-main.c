@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /*
- * main - prints current file name 
- * Return (0) 0n success
+ * main - prints current file name
+ * Return 0
  */
 
 int main(void)
