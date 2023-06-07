@@ -6,6 +6,7 @@
  * function prototype declarations
  */
 
+void _putchar;
 void _puts_recursion(char *s);
 
 #endif
