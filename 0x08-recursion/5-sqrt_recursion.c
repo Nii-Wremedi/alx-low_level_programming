@@ -9,6 +9,7 @@
  *         or -1 if n does not have a natural square root
  */
 
+int sqrt_helper(int n, int i);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
