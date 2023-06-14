@@ -79,4 +79,4 @@ The scripts were tested on Ubuntu 20.04 LTS.
 
 ## Author
 
-This repository is authored by [Your Name].
+This repository is authored by NII WREMEDI under the supervision and tutelage of the ALX software engineering programe.
