@@ -3,21 +3,17 @@
 
 /**
  * struct dog - Structure representing a dog
- * @name: Pointer to the name of the dog
+ * @name: Name of the dog
  * @age: Age of the dog
- * @owner: Pointer to the owner's name
- *
- * Description: This structure defines a dog with its name, age, and owner.
+ * @owner: Owner of the dog
  */
 
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
-
-typedef struct dog dog_t;
+} dog_t;
 
 /* Function prototypes */
 void init_dog(struct dog *d, char *name, float age, char *owner);
