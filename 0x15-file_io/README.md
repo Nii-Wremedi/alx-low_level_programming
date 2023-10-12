@@ -1,4 +1,4 @@
-# FILE I/O
+# FILE I/0
 
 ## Table of Contents
 - [Requirements](#requirements)
